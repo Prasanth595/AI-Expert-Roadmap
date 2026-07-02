@@ -1,0 +1,25 @@
+name: "🐛 Roadmap Error / 内容勘误"
+description: "Report a factual mistake, broken link, or grammatical error in the roadmap"
+title: "[Correction]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out this form to report a roadmap mistake or broken links.
+  - type: textarea
+    id: details
+    attributes:
+      label: "Error Details / 问题细节"
+      description: "Which section of the roadmap or which link has issues?"
+      placeholder: "e.g., The link under Machine Learning section page is broken..."
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: "Suggested Correction / 修正方案"
+      description: "What should the link or fact say instead?"
+      placeholder: "Change URL to..."
+    validations:
+      required: true

@@ -1,0 +1,17 @@
+name: "📚 Roadmap Suggestion / 路线图新增建议"
+description: "Suggest a new topic, learning resource, or diagram enhancement"
+title: "[Suggestion]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggest new learning contents to add.
+  - type: textarea
+    id: roadmap
+    attributes:
+      label: "Roadmap Topic / 新增主题"
+      description: "What topic should we add to the Artificial Intelligence Roadmap?"
+      placeholder: "Add AI agent framework section..."
+    validations:
+      required: true
